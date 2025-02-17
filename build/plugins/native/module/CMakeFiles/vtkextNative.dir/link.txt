@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libvtkextNative.a CMakeFiles/vtkextNative.dir/vtkF3DSplatReader.cxx.o
+/usr/bin/ranlib ../../../lib/libvtkextNative.a

@@ -1,0 +1,80 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_build"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/lib/cmake/vtk-9.4/vtkModule.cmake",
+			"vtkext/public/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 34,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3128,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3140,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "plugin_sdk",
+			"destination" : "lib/cmake/f3d_vtkext",
+			"exportName" : "f3d_vtkext",
+			"exportTargets" : 
+			[
+				{
+					"id" : "vtkext::@046eda32992783649866",
+					"index" : 4
+				}
+			],
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"vtkext/public/CMakeFiles/Export/71f172eca54d94936689240c58040aed/f3d_vtkext-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "plugin_sdk",
+			"destination" : "lib/cmake/f3d_vtkext",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "build/vtkext/public/CMakeFiles/f3d_vtkext-vtk-module-properties.cmake.install",
+					"to" : "f3d_vtkext-vtk-module-properties.cmake"
+				}
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vtkext/public",
+		"source" : "vtkext/public"
+	}
+}

@@ -1,0 +1,18 @@
+# Hashes of file build rules.
+cb79b00fbc2f7526ad10a6ee9f6df210 application/F3DIcon.h
+02904516731fffdfb25ddf55840a1a6b lib/vtk/hierarchy/f3d_native_vtkext_private/vtkextNative-hierarchy.txt
+c47ea2b2ea197c8bb1755b669bb904a2 lib/vtk/hierarchy/f3d_vtkext/vtkext-hierarchy.txt
+c12bba19901d2cf4745978da7987fb3c lib/vtk/hierarchy/f3d_vtkext_private/vtkextPrivate-hierarchy.txt
+a202611d47a58a7ee54206223af8828a plugins/native/module/CMakeFiles/vtkextNative-hierarchy
+e81e25f9f1552d93e327bd5e92db65ae vtkext/private/module/CMakeFiles/vtkextPrivate-hierarchy
+cc7075c1a0f7d1307cc5d2d418419416 vtkext/private/module/F3DDefaultHDRI.h
+0784d0e7cc942e5b7ba495619955bc82 vtkext/private/module/F3DFontBuffer.h
+95ba3caed98114f07a8eaf1d0afd3f87 vtkext/private/module/vtkF3DComputeDepthCS.h
+c5e0c03646d65cabbf92cf9c49f588ac vtkext/private/module/vtkF3DImguiFS.h
+9c5878c85bbeffca38e090b9871f4e36 vtkext/private/module/vtkF3DImguiVS.h
+41e14a5f83faa4a9502d169910098190 vtkext/public/module/CMakeFiles/vtkext-hierarchy
+86a3487d59eaea1ab1b38780d6d9cfc9 vtkext/public/module/vtkF3DBitonicSortFunctions.h
+fe1ed10f9417bc76de9f4ee94fa956bc vtkext/public/module/vtkF3DBitonicSortGlobalDisperseCS.h
+d7d35092495a839c93fb4ac6df57887b vtkext/public/module/vtkF3DBitonicSortGlobalFlipCS.h
+50443a55deecd58be2c7bd073eeb62da vtkext/public/module/vtkF3DBitonicSortLocalDisperseCS.h
+e3196ae8c4521a5390aee6e73a89b2fa vtkext/public/module/vtkF3DBitonicSortLocalSortCS.h

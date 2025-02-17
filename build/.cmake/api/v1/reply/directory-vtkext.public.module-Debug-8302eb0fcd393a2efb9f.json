@@ -1,0 +1,112 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"vtk_module_install_headers",
+			"vtk_module_add_module",
+			"_vtk_module_write_wrap_hierarchy",
+			"_vtk_module_install"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/lib/cmake/vtk-9.4/vtkModule.cmake",
+			"vtkext/public/module/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4211,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 4865,
+				"parent" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 4552,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3860,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 4662,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 5060,
+				"parent" : 6
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 3,
+			"component" : "plugin_sdk",
+			"destination" : "include/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"vtkext/public/module/vtkF3DFaceVaryingPointDispatcher.h",
+				"vtkext/public/module/vtkF3DGLTFImporter.h",
+				"vtkext/public/module/vtkF3DImporter.h",
+				"vtkext/public/module/vtkF3DBitonicSort.h",
+				"build/vtkext/public/module/vtkextModule.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "plugin_sdk",
+			"destination" : "lib/vtk/hierarchy/f3d_vtkext",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"build/lib/vtk/hierarchy/f3d_vtkext/vtkext-hierarchy.txt"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "library",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"lib/libvtkext.dylib"
+			],
+			"targetId" : "vtkext::@046eda32992783649866",
+			"targetIndex" : 4,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "vtkext/public/module",
+		"source" : "vtkext/public/module"
+	}
+}
