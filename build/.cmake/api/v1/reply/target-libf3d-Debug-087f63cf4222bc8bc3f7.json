@@ -1,0 +1,914 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "lib/libf3d.dylib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"include",
+			"find_package",
+			"vtk_module_add_module",
+			"f3d_plugin_build",
+			"set_property",
+			"_pkg_create_imp_target",
+			"_pkg_recalculate",
+			"pkg_check_modules",
+			"target_compile_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"library/CMakeLists.txt",
+			"/opt/homebrew/lib/cmake/vtk-9.4/VTK-targets.cmake",
+			"/opt/homebrew/lib/cmake/vtk-9.4/vtk-config.cmake",
+			"CMakeLists.txt",
+			"/opt/homebrew/lib/cmake/vtk-9.4/vtkModule.cmake",
+			"vtkext/private/module/CMakeLists.txt",
+			"cmake/f3dPlugin.cmake",
+			"plugins/native/CMakeLists.txt",
+			"vtkext/public/module/CMakeLists.txt",
+			"plugins/exodus/CMakeLists.txt",
+			"/opt/homebrew/share/cmake/Modules/FindPkgConfig.cmake",
+			"/opt/homebrew/lib/cmake/vtk-9.4/FindNetCDF.cmake",
+			"/opt/homebrew/lib/cmake/vtk-9.4/VTK-vtk-module-find-packages.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 85,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 247,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 166,
+				"parent" : 0
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 3,
+				"line" : 84,
+				"parent" : 4
+			},
+			{
+				"file" : 2,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 147,
+				"parent" : 6
+			},
+			{
+				"file" : 1,
+				"parent" : 7
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 2047,
+				"parent" : 8
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 6,
+				"file" : 5,
+				"line" : 118,
+				"parent" : 10
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 4442,
+				"parent" : 11
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 2972,
+				"parent" : 8
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 7,
+				"line" : 189,
+				"parent" : 14
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 320,
+				"parent" : 15
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3375,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1279,
+				"parent" : 8
+			},
+			{
+				"file" : 8
+			},
+			{
+				"command" : 6,
+				"file" : 8,
+				"line" : 30,
+				"parent" : 19
+			},
+			{
+				"command" : 2,
+				"file" : 4,
+				"line" : 4442,
+				"parent" : 20
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3416,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1725,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1691,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1039,
+				"parent" : 8
+			},
+			{
+				"file" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 9,
+				"line" : 25,
+				"parent" : 26
+			},
+			{
+				"command" : 2,
+				"file" : 6,
+				"line" : 320,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 806,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 1842,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 462,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 874,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 409,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 221,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 299,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 4191,
+				"parent" : 8
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 3006,
+				"parent" : 8
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 170,
+				"parent" : 6
+			},
+			{
+				"file" : 12,
+				"parent" : 38
+			},
+			{
+				"command" : 5,
+				"file" : 12,
+				"line" : 497,
+				"parent" : 39
+			},
+			{
+				"file" : 11,
+				"parent" : 40
+			},
+			{
+				"command" : 11,
+				"file" : 11,
+				"line" : 59,
+				"parent" : 41
+			},
+			{
+				"command" : 10,
+				"file" : 10,
+				"line" : 881,
+				"parent" : 42
+			},
+			{
+				"command" : 9,
+				"file" : 10,
+				"line" : 365,
+				"parent" : 43
+			},
+			{
+				"command" : 8,
+				"file" : 10,
+				"line" : 346,
+				"parent" : 44
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 0,
+				"line" : 102,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++17 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.2.sdk -fPIC -fvisibility=hidden"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 46,
+					"define" : "F3D_MODULE_UI"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GLAD_API_CALL_EXPORT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GL_SILENCE_DEPRECATION"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "kiss_fft_scalar=double"
+				},
+				{
+					"define" : "libf3d_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 47,
+					"path" : "/Users/aubreyfortmayer/f3d/library/public"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/Users/aubreyfortmayer/f3d/build/library/public"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/Users/aubreyfortmayer/f3d/library/private"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/Users/aubreyfortmayer/f3d/build/library/private"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/Users/aubreyfortmayer/f3d/library/plugin"
+				},
+				{
+					"backtrace" : 47,
+					"path" : "/Users/aubreyfortmayer/f3d/build/library/plugin"
+				},
+				{
+					"backtrace" : 48,
+					"path" : "/Users/aubreyfortmayer/f3d/external/nlohmann_json"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/aubreyfortmayer/f3d/build/vtkext/public/module"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/aubreyfortmayer/f3d/vtkext/public/module"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/aubreyfortmayer/f3d/build/vtkext/private/module"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/Users/aubreyfortmayer/f3d/vtkext/private/module"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include/vtk-9.4"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include/vtk-9.4/token"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include/vtk-9.4/vtkkissfft"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/opt/homebrew/include/vtk-9.4/vtkglad"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					3
+				],
+				"standard" : "17"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "vtkext::@046eda32992783649866"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vtkextPrivate::@8bdbc847eb43b6e3874c"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "f3d-plugin-native::@7e106c26fcba99d51dd7"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "vtkextNative::@f7896f242aae778276ef"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "f3d-plugin-exodus::@dd75234ac9e5d3b02865"
+		}
+	],
+	"id" : "libf3d::@25993c7f548492bbc626",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/homebrew/lib -Wl,-rpath,/Users/aubreyfortmayer/f3d/build/lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../lib/libvtkextPrivate.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../lib/libf3d-plugin-native.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../lib/libf3d-plugin-exodus.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/homebrew/lib/libvtkInteractionWidgets-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingContext2D-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkInteractionStyle-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingAnnotation-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingVolumeOpenGL2-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/homebrew/lib/libvtkImagingMath-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingVolume-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkImagingHybrid-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/opt/homebrew/lib/libvtkIOParallel-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "/opt/homebrew/lib/libjsoncpp.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkIOXML-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/opt/homebrew/lib/libvtkIOCityGML-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/opt/homebrew/lib/libvtkIOPLY-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "../lib/libvtkextNative.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "../lib/libvtkext.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingOpenGL2-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingHyperTreeGrid-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingUI-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "/opt/homebrew/lib/libvtkglad-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 18,
+				"fragment" : "-framework Cocoa",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 21,
+				"fragment" : "/opt/homebrew/lib/libvtkIOImport-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 16,
+				"fragment" : "/opt/homebrew/lib/libvtkIOGeometry-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/homebrew/lib/libvtkIOImage-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/homebrew/lib/libvtkIOLegacy-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 23,
+				"fragment" : "/opt/homebrew/lib/libvtkIOCellGrid-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 24,
+				"fragment" : "/opt/homebrew/lib/libvtkFiltersCellGrid-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/homebrew/lib/libvtkRenderingCore-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/homebrew/lib/libvtkFiltersSources-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/homebrew/lib/libvtkFiltersGeneral-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/opt/homebrew/lib/libvtkImagingCore-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkFiltersGeometry-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 28,
+				"fragment" : "/opt/homebrew/lib/libvtkIOExodus-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/opt/homebrew/lib/libvtkFiltersCore-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "/opt/homebrew/lib/libvtkIOXMLParser-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 22,
+				"fragment" : "/opt/homebrew/lib/libvtkIOCore-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 25,
+				"fragment" : "/opt/homebrew/lib/libvtkCommonExecutionModel-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 12,
+				"fragment" : "/opt/homebrew/lib/libvtkCommonDataModel-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/opt/homebrew/lib/libvtkCommonSystem-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 31,
+				"fragment" : "/opt/homebrew/lib/libvtkCommonTransforms-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "/opt/homebrew/lib/libvtkCommonMisc-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 32,
+				"fragment" : "/opt/homebrew/lib/libvtkCommonMath-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 33,
+				"fragment" : "/opt/homebrew/lib/libvtkCommonCore-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/opt/homebrew/lib/libvtksys-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 34,
+				"fragment" : "/opt/homebrew/lib/libvtktoken-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 35,
+				"fragment" : "/opt/homebrew/lib/libvtkkissfft-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 36,
+				"fragment" : "/opt/homebrew/lib/libvtkexodusII-9.4.9.4.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/opt/homebrew/lib/libhdf5.310.5.1.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 37,
+				"fragment" : "/opt/homebrew/lib/libhdf5_hl.310.0.6.dylib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 45,
+				"fragment" : "/opt/homebrew/Cellar/netcdf/4.9.2_2/lib/libnetcdf.dylib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "libf3d",
+	"nameOnDisk" : "libf3d.dylib",
+	"paths" : 
+	{
+		"build" : "library",
+		"source" : "library"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/animationManager.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/camera_impl.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/library/src/config.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/context.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/engine.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "build/library/src/factory.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/image.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/init.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/interactor.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/interactor_impl.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/levenshtein.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/log.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/options.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/scene_impl.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/types.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/utils.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/window_impl.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "library/src/context_cocoa.mm",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

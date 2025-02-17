@@ -1,0 +1,85 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install",
+			"f3d_plugin_build"
+		],
+		"files" : 
+		[
+			"cmake/f3dPlugin.cmake",
+			"plugins/native/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 189,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 334,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 402,
+				"parent" : 1
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 2,
+			"component" : "configuration",
+			"destination" : "f3d.app/Contents/Resources/configs",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/native/configs/config.d"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "configuration",
+			"destination" : "f3d.app/Contents/Resources/configs",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"plugins/native/configs/thumbnail.d"
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "plugin",
+			"destination" : "share/f3d/plugins",
+			"paths" : 
+			[
+				"build/share/f3d/plugins/native.json"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "plugins/native",
+		"source" : "plugins/native"
+	}
+}

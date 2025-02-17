@@ -1,0 +1,88 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"_vtk_module_write_wrap_hierarchy",
+			"vtk_module_add_module"
+		],
+		"files" : 
+		[
+			"/opt/homebrew/lib/cmake/vtk-9.4/vtkModule.cmake",
+			"vtkext/public/module/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4552,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3831,
+				"parent" : 2
+			}
+		]
+	},
+	"id" : "vtkext-hierarchy::@046eda32992783649866",
+	"name" : "vtkext-hierarchy",
+	"paths" : 
+	{
+		"build" : "vtkext/public/module",
+		"source" : "vtkext/public/module"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "build/vtkext/public/module/CMakeFiles/vtkext-hierarchy",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/vtkext/public/module/CMakeFiles/vtkext-hierarchy.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/lib/vtk/hierarchy/f3d_vtkext/vtkext-hierarchy.txt.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

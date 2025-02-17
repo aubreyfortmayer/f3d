@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libf3d-plugin-exodus.a "CMakeFiles/f3d-plugin-exodus.dir/plugin.cxx.o"
+/usr/bin/ranlib ../../lib/libf3d-plugin-exodus.a

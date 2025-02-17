@@ -1,0 +1,130 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"application/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 222,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 228,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 234,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 243,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 250,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "application",
+			"destination" : ".",
+			"paths" : 
+			[
+				{
+					"from" : "bin/f3d.app",
+					"to" : "f3d.app/Contents/MacOS/f3d"
+				}
+			],
+			"targetId" : "f3d::@8badf0d542dc2e21c899",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "sdk",
+			"destination" : "lib/cmake/f3d",
+			"exportName" : "f3dTargets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "f3d::@8badf0d542dc2e21c899",
+					"index" : 0
+				}
+			],
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"application/CMakeFiles/Export/b837c8e1dffe8e5616e49eed5af44cb9/f3dTargets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "sdk",
+			"destination" : "lib/cmake/f3d",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				"cmake/application-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "configuration",
+			"destination" : "f3d.app/Contents/Resources/configs",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "resources/configs",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "colormaps",
+			"destination" : "f3d.app/Contents/Resources/colormaps",
+			"isExcludeFromAll" : true,
+			"paths" : 
+			[
+				{
+					"from" : "resources/colormaps",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "application",
+		"source" : "application"
+	}
+}
