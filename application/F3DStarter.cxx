@@ -1618,6 +1618,23 @@ void F3DStarter::AddCommands()
     return f3d::options::parse<bool>(args[0]);
   };
 
+  
+  auto removeFileGroups = [this]()
+  {
+    if(!this->Internals->AppOptions.NoRender)
+    {
+      this->Internals->Engine->getInteractor().stopAnimation();
+    }
+    this->Internals->Engine->getScene().clear();
+    this->Internals->FilesGroups.clear();
+    this->Internals->LoadedFiles.clear();
+    f3d::options& options = this->Internals->Engine->getOptions();
+    options.ui.dropzone = true;
+    options.uf.filename_info = "";
+  };
+  interactor.addCommand("remove_file_groups", removeFileGroups);
+
+
   interactor.addCommand("load_previous_file_group",
     [this](const std::vector<std::string>& args)
     {
